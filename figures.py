@@ -27,7 +27,7 @@ for liLines in gListOfficialLineSizes :
         lfRatioArea = float(liArea) / liArea0
         print "compare with previous :"
         print "- diff  lines : %4d, size: %4d" % (liDiffLines, liDiffSize)
-        print "- ratio lines : %.2f, size: %.2f" % (lfRatioLines, lfRatioSize)
+        print "- ratio lines : %.4f, size: %.4f" % (lfRatioLines, lfRatioSize)
         print "- diff  stones: %4d, area: %4d" % (liDiffStones, liDiffArea)
         print "- ratio stones: %.4f, area: %.4f" % (lfRatioStones, lfRatioArea)
         if not liArea1 == 0 :
