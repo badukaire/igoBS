@@ -1,0 +1,241 @@
+board lines:  7 => size:  6
+stones:  49, area:  36
+--
+board lines:  9 => size:  8
+stones:  81, area:  64
+compare with previous :
+- diff  lines :    2, size:    2
+- ratio lines : 1.2857, size: 1.3333
+- diff  stones:   32, area:   28
+- ratio stones: 1.6531, area: 1.7778
+--
+board lines: 13 => size: 12
+stones: 169, area: 144
+compare with previous :
+- diff  lines :    4, size:    4
+- ratio lines : 1.4444, size: 1.5000
+- diff  stones:   88, area:   80
+- ratio stones: 2.0864, area: 2.2500
+compare with previous-previous :
+- ratio stones: 3.4490, area: 4.0000
+--
+board lines: 19 => size: 18
+stones: 361, area: 324
+compare with previous :
+- diff  lines :    6, size:    6
+- ratio lines : 1.4615, size: 1.5000
+- diff  stones:  192, area:  180
+- ratio stones: 2.1361, area: 2.2500
+compare with previous-previous :
+- ratio stones: 4.4568, area: 5.0625
+--
+board lines: 28 => size: 27
+stones: 784, area: 729
+compare with previous :
+- diff  lines :    9, size:    9
+- ratio lines : 1.4737, size: 1.5000
+- diff  stones:  423, area:  405
+- ratio stones: 2.1717, area: 2.2500
+compare with previous-previous :
+- ratio stones: 4.6391, area: 5.0625
+--
+board lines: 41 => size: 40
+stones: 1681, area: 1600
+compare with previous :
+- diff  lines :   13, size:   13
+- ratio lines : 1.4643, size: 1.4815
+- diff  stones:  897, area:  871
+- ratio stones: 2.1441, area: 2.1948
+compare with previous-previous :
+- ratio stones: 4.6565, area: 4.9383
+--
+board lines: 61 => size: 60
+stones: 3721, area: 3600
+compare with previous :
+- diff  lines :   20, size:   20
+- ratio lines : 1.4878, size: 1.5000
+- diff  stones: 2040, area: 2000
+- ratio stones: 2.2136, area: 2.2500
+compare with previous-previous :
+- ratio stones: 4.7462, area: 4.9383
+--
+board lines: 91 => size: 90
+stones: 8281, area: 8100
+compare with previous :
+- diff  lines :   30, size:   30
+- ratio lines : 1.4918, size: 1.5000
+- diff  stones: 4560, area: 4500
+- ratio stones: 2.2255, area: 2.2500
+compare with previous-previous :
+- ratio stones: 4.9262, area: 5.0625
+--
+board lines: 136 => size: 135
+stones: 18496, area: 18225
+compare with previous :
+- diff  lines :   45, size:   45
+- ratio lines : 1.4945, size: 1.5000
+- diff  stones: 10215, area: 10125
+- ratio stones: 2.2335, area: 2.2500
+compare with previous-previous :
+- ratio stones: 4.9707, area: 5.0625
+--
+board lines: 203 => size: 202
+stones: 41209, area: 40804
+compare with previous :
+- diff  lines :   67, size:   67
+- ratio lines : 1.4926, size: 1.4963
+- diff  stones: 22713, area: 22579
+- ratio stones: 2.2280, area: 2.2389
+compare with previous-previous :
+- ratio stones: 4.9763, area: 5.0375
+--
+board lines: 304 => size: 303
+stones: 92416, area: 91809
+compare with previous :
+- diff  lines :  101, size:  101
+- ratio lines : 1.4975, size: 1.5000
+- diff  stones: 51207, area: 51005
+- ratio stones: 2.2426, area: 2.2500
+compare with previous-previous :
+- ratio stones: 4.9965, area: 5.0375
+--
+board lines: 455 => size: 454
+stones: 207025, area: 206116
+compare with previous :
+- diff  lines :  151, size:  151
+- ratio lines : 1.4967, size: 1.4983
+- diff  stones: 114609, area: 114307
+- ratio stones: 2.2401, area: 2.2451
+compare with previous-previous :
+- ratio stones: 5.0238, area: 5.0514
+--
+board lines: 682 => size: 681
+stones: 465124, area: 463761
+compare with previous :
+- diff  lines :  227, size:  227
+- ratio lines : 1.4989, size: 1.5000
+- diff  stones: 258099, area: 257645
+- ratio stones: 2.2467, area: 2.2500
+compare with previous-previous :
+- ratio stones: 5.0329, area: 5.0514
+--
+board lines: 1021 => size: 1020
+stones: 1042441, area: 1040400
+compare with previous :
+- diff  lines :  339, size:  339
+- ratio lines : 1.4971, size: 1.4978
+- diff  stones: 577317, area: 576639
+- ratio stones: 2.2412, area: 2.2434
+compare with previous-previous :
+- ratio stones: 5.0353, area: 5.0476
+--
+board lines: 1531 => size: 1530
+stones: 2343961, area: 2340900
+compare with previous :
+- diff  lines :  510, size:  510
+- ratio lines : 1.4995, size: 1.5000
+- diff  stones: 1301520, area: 1300500
+- ratio stones: 2.2485, area: 2.2500
+compare with previous-previous :
+- ratio stones: 5.0394, area: 5.0476
+--
+board lines: 2296 => size: 2295
+stones: 5271616, area: 5267025
+compare with previous :
+- diff  lines :  765, size:  765
+- ratio lines : 1.4997, size: 1.5000
+- diff  stones: 2927655, area: 2926125
+- ratio stones: 2.2490, area: 2.2500
+compare with previous-previous :
+- ratio stones: 5.0570, area: 5.0625
+--
+board lines: 3444 => size: 3443
+stones: 11861136, area: 11854249
+compare with previous :
+- diff  lines : 1148, size: 1148
+- ratio lines : 1.5000, size: 1.5002
+- diff  stones: 6589520, area: 6587224
+- ratio stones: 2.2500, area: 2.2507
+compare with previous-previous :
+- ratio stones: 5.0603, area: 5.0640
+--
+board lines: 5166 => size: 5165
+stones: 26687556, area: 26677225
+compare with previous :
+- diff  lines : 1722, size: 1722
+- ratio lines : 1.5000, size: 1.5001
+- diff  stones: 14826420, area: 14822976
+- ratio stones: 2.2500, area: 2.2504
+compare with previous-previous :
+- ratio stones: 5.0625, area: 5.0650
+--
+board lines: 7749 => size: 7748
+stones: 60047001, area: 60031504
+compare with previous :
+- diff  lines : 2583, size: 2583
+- ratio lines : 1.5000, size: 1.5001
+- diff  stones: 33359445, area: 33354279
+- ratio stones: 2.2500, area: 2.2503
+compare with previous-previous :
+- ratio stones: 5.0625, area: 5.0641
+--
+board lines: 11623 => size: 11622
+stones: 135094129, area: 135070884
+compare with previous :
+- diff  lines : 3874, size: 3874
+- ratio lines : 1.4999, size: 1.5000
+- diff  stones: 75047128, area: 75039380
+- ratio stones: 2.2498, area: 2.2500
+compare with previous-previous :
+- ratio stones: 5.0621, area: 5.0632
+--
+board lines: 17434 => size: 17433
+stones: 303944356, area: 303909489
+compare with previous :
+- diff  lines : 5811, size: 5811
+- ratio lines : 1.5000, size: 1.5000
+- diff  stones: 168850227, area: 168838605
+- ratio stones: 2.2499, area: 2.2500
+compare with previous-previous :
+- ratio stones: 5.0618, area: 5.0625
+--
+board lines: 26151 => size: 26150
+stones: 683874801, area: 683822500
+compare with previous :
+- diff  lines : 8717, size: 8717
+- ratio lines : 1.5000, size: 1.5000
+- diff  stones: 379930445, area: 379913011
+- ratio stones: 2.2500, area: 2.2501
+compare with previous-previous :
+- ratio stones: 5.0622, area: 5.0627
+--
+board lines: 39226 => size: 39225
+stones: 1538679076, area: 1538600625
+compare with previous :
+- diff  lines : 13075, size: 13075
+- ratio lines : 1.5000, size: 1.5000
+- diff  stones: 854804275, area: 854778125
+- ratio stones: 2.2499, area: 2.2500
+compare with previous-previous :
+- ratio stones: 5.0624, area: 5.0627
+--
+board lines: 58839 => size: 58838
+stones: 3462027921, area: 3461910244
+compare with previous :
+- diff  lines : 19613, size: 19613
+- ratio lines : 1.5000, size: 1.5000
+- diff  stones: 1923348845, area: 1923309619
+- ratio stones: 2.2500, area: 2.2500
+compare with previous-previous :
+- ratio stones: 5.0624, area: 5.0626
+--
+board lines: 88258 => size: 88257
+stones: 7789474564, area: 7789298049
+compare with previous :
+- diff  lines : 29419, size: 29419
+- ratio lines : 1.5000, size: 1.5000
+- diff  stones: 4327446643, area: 4327387805
+- ratio stones: 2.2500, area: 2.2500
+compare with previous-previous :
+- ratio stones: 5.0624, area: 5.0626
+--
