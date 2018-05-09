@@ -14,6 +14,20 @@ gListOfficialLineSizes = [ 6, 9, 13, 19, \
 ]
 """
 
+gListRowTexts = [
+    "lines         ",
+    "squares (-1)  ",
+    "stones        ",
+    "area (squares)",
+    "diff lines/sq ",
+    "diff stones   ",
+    "ratio stones  ",
+    "ratio size    ",
+    "diff area     ",
+    "ratio area    ",
+    "ratio stones-2",
+    "ratio area-2  ",
+]
 
 gListSizes = []
 
@@ -34,10 +48,10 @@ lfRatioStones2 = .0
 lfRatioArea2 = .0
 for liLines in gListOfficialLineSizes :
     liSize = liLines - 1
-    print "board lines: %2d => size: %2d" % (liLines, liSize)
+    #print "board lines: %2d => size: %2d" % (liLines, liSize)
     liStones = liLines * liLines
     liArea = liSize * liSize
-    print "stones: %3d, area: %3d" % (liStones, liArea)
+    #print "stones: %3d, area: %3d" % (liStones, liArea)
     if not liLines0 == 0 :
         liDiffLines = liLines - liLines0
         liDiffSize = liSize - liSize0
@@ -47,16 +61,16 @@ for liLines in gListOfficialLineSizes :
         liDiffArea = liArea - liArea0
         lfRatioStones = float(liStones) / liStones0
         lfRatioArea = float(liArea) / liArea0
-        print "compare with previous :"
-        print "- diff  lines : %4d, size: %4d" % (liDiffLines, liDiffSize)
-        print "- ratio lines : %.4f, size: %.4f" % (lfRatioLines, lfRatioSize)
-        print "- diff  stones: %4d, area: %4d" % (liDiffStones, liDiffArea)
-        print "- ratio stones: %.4f, area: %.4f" % (lfRatioStones, lfRatioArea)
+        #print "compare with previous :"
+        #print "- diff  lines : %4d, size: %4d" % (liDiffLines, liDiffSize)
+        #print "- ratio lines : %.4f, size: %.4f" % (lfRatioLines, lfRatioSize)
+        #print "- diff  stones: %4d, area: %4d" % (liDiffStones, liDiffArea)
+        #print "- ratio stones: %.4f, area: %.4f" % (lfRatioStones, lfRatioArea)
         if not liArea1 == 0 :
-            print "compare with previous-previous :"
+            #print "compare with previous-previous :"
             lfRatioStones2 = float(liStones) / liStones1
             lfRatioArea2 = float(liArea) / liArea1
-            print "- ratio stones: %.4f, area: %.4f" % (lfRatioStones2, lfRatioArea2)
+            #print "- ratio stones: %.4f, area: %.4f" % (lfRatioStones2, lfRatioArea2)
         liStones1 = liStones0
         liArea1 = liArea0
     liLines0 = liLines
@@ -68,12 +82,12 @@ for liLines in gListOfficialLineSizes :
     gListSizes.append(lTup)
 
     liRows = len( lTup )
-    print "rows:", liRows
-    print "--"
+    #print "rows:", liRows
+    #print "--"
 
 
 for liCol in range( liRows ) :
-    lsRow = "|"
+    lsRow = "| " + gListRowTexts[ liCol ] + " |"
     for lListSize in gListSizes :
         xCol = lListSize[ liCol ]
         #print xCol.__class__
@@ -85,4 +99,5 @@ for liCol in range( liRows ) :
         lsRow += lsCol
         #print "-"
     print lsRow
+
 
