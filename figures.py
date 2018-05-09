@@ -80,7 +80,7 @@ for liCol in range( liRows ) :
         if isinstance(xCol, float) :
             lsCol = " %1.4f |" % xCol
         else :
-            lsCol = " %6d |" % xCol
+            lsCol = " %5d  |" % xCol
         #print "col:", lsCol
         lsRow += lsCol
         #print "-"
