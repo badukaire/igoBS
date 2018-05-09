@@ -2,7 +2,7 @@
 
 
 
-gListOfficialLineSizes = [ 7, 9, 13, 19, \
+gListOfficialLineSizes = [ 6, 9, 13, 19, \
     28, 41, 61, 91, 136, \
     203, 304, 455, 682, \
     1021, 1531, 2296, 3444, \
