@@ -78,9 +78,9 @@ for liCol in range( liRows ) :
         xCol = lListSize[ liCol ]
         #print xCol.__class__
         if isinstance(xCol, float) :
-            lsCol = " %1.4f |" % xCol
+            lsCol = " %1.4f |" % xCol if not xCol == .0 else "     -- |"
         else :
-            lsCol = " %5d  |" % xCol
+            lsCol = " %5d  |" % xCol if not xCol == 0 else "     -- |"
         #print "col:", lsCol
         lsRow += lsCol
         #print "-"
