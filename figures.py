@@ -64,7 +64,7 @@ for liLines in gListOfficialLineSizes :
     liStones0 = liStones
     liArea0 = liArea
 
-    lTup = ( liLines, liSize, liStones, liArea, liDiffLines, liDiffSize, lfRatioLines, lfRatioSize, liDiffStones, liDiffArea, lfRatioStones, lfRatioArea, lfRatioStones2, lfRatioArea2, )
+    lTup = ( liLines, liSize, liStones, liArea, liDiffSize, liDiffStones, lfRatioStones, lfRatioSize, liDiffArea, lfRatioArea, lfRatioStones2, lfRatioArea2, )
     gListSizes.append(lTup)
 
     liRows = len( lTup )
